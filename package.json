@@ -1,6 +1,6 @@
 {
     "name": "react-native-build-number",
-    "version": "1.1.7",
+    "version": "1.1.8",
     "description": "Automatic build number (version) incrementation for React Native",
     "main": "index.js",
     "bin": "./cli.js",
@@ -12,7 +12,7 @@
       "email": "dumitru.florin@outlook.com"
     },
     "homepage": "https://github.com/florindumitru/react-native-build-number",
-    "license": "ISC",
+    "license": "MIT",
     "repository": {
       "type": "git",
       "url": "git+https://github.com/florindumitru/react-native-build-number.git"
