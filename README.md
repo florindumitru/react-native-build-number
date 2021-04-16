@@ -16,7 +16,7 @@ In your package.json file add (below version):
 
 In your package.json file, in scripts change "start" with:
 
-`"start": "react-native-build-number && react-native start",`
+`"start": "node ./node_modules/react-native-build-number && react-native start",`
 
 ##Read build number
 ```javascript
