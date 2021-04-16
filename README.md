@@ -10,17 +10,17 @@ or
 `yarn add react-native-build-number`
 
 ## Setup
-In your package.json file add (below version):
+In your app.json file add (below displayName):
 
 `"build": 1,`
 
 In your package.json file, in scripts change "start" with:
 
-`"start": "node ./node_modules/react-native-build-number && react-native start",`
+`"start": "react-native-build-number && react-native start",`
 
 ##Read build number
 ```javascript
-import packageJson from './your-path/package.json';
+import packageJson from './your-path/app.json';
 console.log(packageJson.build)
 ```
 

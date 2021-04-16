@@ -1,14 +1,18 @@
 #!/usr/bin/env node
 
  'use strict';
-
  const fs = require('fs');
- const fileName = '../../package.json';
+ const path = require("path");
+ const fileName = '../../app.json';
  const file = require(fileName);
-     
+ 
+ const projPath = path.resolve(
+   process.cwd()
+ );
+ const appJSONPath = path.join(projPath, "app.json");
+ 
  file.build = file.build + 1;
-     
- fs.writeFile(fileName, JSON.stringify(file, null, 4), function writeJSON(err) {
-   if (err) return console.log(err);
- });
+ 
+ fs.writeFileSync(appJSONPath, JSON.stringify(file, null, 2));
+ 
  
