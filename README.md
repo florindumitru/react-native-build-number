@@ -3,11 +3,11 @@ A simple way to automatically increase a build number (version) for React Native
 
 
 ## Install
-`npm install react-native-build-number`
+`npm i react-native-build-number`
 
 or
 
-`yarn add react-native-build-numbe `
+`yarn add react-native-build-number`
 
 ## Setup
 In your package.json file add (below version):
