@@ -1,0 +1,20 @@
+{
+    "name": "react-native-build-number",
+    "version": "1.0.0",
+    "build": 4,
+    "description": "Automatic build number (version) incrementation for React Native",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+      "name": "Florin Dumitru",
+      "email": "dumitru.florin@outlook.com"
+    },
+    "homepage": "https://github.com/florindumitru/react-native-build-number",
+    "license": "ISC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/florindumitru/react-native-build-number.git"
+    }
+}
