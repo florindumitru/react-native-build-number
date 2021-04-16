@@ -14,14 +14,14 @@ In your app.json file add (below displayName):
 
 `"build": 1,`
 
-In your package.json file, in scripts change "start" with:
+In your app.json file, in scripts change "start" with:
 
 `"start": "react-native-build-number && react-native start",`
 
-##Read build number
+## Read build number
 ```javascript
-import packageJson from './your-path/app.json';
-console.log(packageJson.build)
+import appJson from './your-th/app.json';
+console.log(appJson.build)
 ```
 
-Every time you run npm start the build number will increase !
+Every time you run "npm start" the build number will increase !
