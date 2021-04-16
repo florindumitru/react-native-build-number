@@ -3,7 +3,7 @@
  'use strict';
 
  const fs = require('fs');
- const fileName = './../../package.json';
+ const fileName = '../../package.json';
  const file = require(fileName);
      
  file.build = file.build + 1;
